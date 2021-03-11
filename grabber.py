@@ -1,4 +1,4 @@
-print(f"THIS PROGRAM COMES WITH NO WARRANTY AND I AM NOT RESPONSIBLE FOR ANY DAMAGES!\nUse at your own risk.")
+print(f"THIS PROGRAM COMES WITH NO WARRANTY AND I AM NOT RESPONSIBLE FOR ANY DAMAGES!\nUse at your own risk.\n\nModified by AUser0")
 import os
 os.system("pause")
 import urllib3
